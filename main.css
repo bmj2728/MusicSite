@@ -1,0 +1,84 @@
+.container-page {
+  padding: 0px;
+  width: 960px;
+}
+/**header style**/
+.container-header {
+  padding: 0px;
+  width: 960px;
+}
+.site-header {
+  padding: 0px;
+  width: 960px;
+}
+
+.site-header h1 {
+  padding: 0px;
+  text-align: center;
+}
+
+.site-nav {
+  padding: 0px;
+  display:inline-block;
+  width: 960px;
+}
+.site-navList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  width: 960px;
+}
+.site-navButton {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-decoration: none;
+}
+
+.container-content {
+  padding: 0px;
+  width: 960px;
+}
+.section-content {
+  padding: 0px;
+  width: 960px;
+}
+.container-mainContent{
+  width: 768px;
+  padding: 0px;
+}
+.section-header{
+  width: 768px;
+  padding: 0px;
+}
+.music-article {
+  width: 768px;
+  padding: 0px;
+}
+.section-footer {
+  width: 768px;
+  font-size: smaller;
+  padding: 0px;
+}
+.container-sideContent {
+  padding: 0px;
+  float: right;
+  width: 192px;
+}
+.site-aside {
+  padding: 0px;
+  width: 192px;
+}
+.container-footer{
+  width: 960px;
+}
+.site-footer {
+  width: 960px;
+}

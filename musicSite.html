@@ -1,42 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  
-  <link rel="stylesheet" type="text/css" href="main.css">
-  
-  <title>Brian Jipson's Music Site</title>
-  
-  <script 
-    src="https://code.jquery.com/jquery-3.5.1.min.js" 
-    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" 
-    crossorigin="anonymous">
-  </script>
-  
-  <script
-    src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
-    integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
-    crossorigin="anonymous">
-  </script>
-  
-  <script src="/Scripts/audioPlayer.js"></script>
-</head>
-
-<body>
-  <header>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Brian Jipson">
+    <meta name="description" content="Personal Site of Brian Jipson"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Jipson Art & Media</title>
     
-  </header>
+    <script 
+      src="https://code.jquery.com/jquery-3.5.1.min.js" 
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" 
+      crossorigin="anonymous">
+    </script>
+    
+    <script
+      src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+      integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+      crossorigin="anonymous">
+    </script>
+    
+    <script src="/Scripts/audioPlayer.js"></script>
+  </head>
 
-  <main>
-
-  </main>
-
-  <footer>
-
-  </footer>
-</body>  
-
+  <body>
+    <div id="musicPageContainer" class="container-page">
+      <div id="musicPageHeaderContainer" class="container-header">
+        <header id="musicPageHeader" class="site-header">
+          <img src="Assets/logo.png"> 
+          <nav id="musicPageNav" class="site-nav">
+            <ul id="musicPageNavList" class="site-navList">
+              <li id="musicNav1" class="site-navButton">Home</li>
+              <li id="musicNav2" class="site-navButton">Music</li>
+              <li id="musicNav3" class="site-navButton">Visual Art</li>
+              <li id="musicNav4" class="site-navButton">Writings</li>
+              <li id="musicNav5" class="site-navButton">Coding</li>
+              <li id="musicNav6" class="site-navButton">Gaming</li>
+              <li id="musicNav7" class="site-navButton">Other</li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+      <div id="musicPageContentContainer" class="container-content">
+        <section id="musicPageContentSection" class="section-content">
+          <div id="musicPageMain" class="container-mainContent">
+            <header id="musicPageComingSoonHeader" class="section-header">
+              <h2>Full Site Coming Soon</h2>
+            </header>
+            <article id="comingSoonArticle" class="music-article">
+              <p>Thanks for visiting today. While we're getting this site built and content migrated, check out a recent track below:</p>
+              <h4>Where Do We Go From Here</h4>
+              <br>
+              <audio controls autoplay> 
+                <source src="AudioM4A/Brian Jipson - Inhale Courage-Exhale Fear - 145 Where Do We Go From Here (Brian Jipson & Adam Murphy).m4a" type="audio/mp4">
+                <source src="AudioMP3/Brian Jipson - Inhale Courage-Exhale Fear - 145 Where Do We Go From Here (Brian Jipson & Adam Murphy).mp3" type="audio/mpeg">
+              </audio>
+              <br>
+              <p>You can check out a long list of other recordings on bandcamp by clicking the image below.</p>
+              <br>
+              <a href="https://brianjipson.bandcamp.com/album/inhale-courage-exhale-fear">
+                <img src="Assets/icef-cover.jpg" width="424" height="378" alt="Inhale Courage Exhale Fear">
+              </a>
+            </article>
+            <footer id="comingSoonFooter" class="section-footer">
+              <p>Jipson, Brian. <cite>"Where Do We Go From Here"</cite> Murphy, A. M. [lyrics], 2020</p>
+            </footer>
+          </div>
+          <div id="musicPageSide" class="container-sideContent">
+            <aside id="musicPageAside" class="site-aside">
+            </aside>
+          </div>
+        </section>
+        <hr style="width:80%;text-align:center">
+      </div>
+      <div id="musicPageFooterContainer" class="container-footer">
+        <footer id=musicPageFooter class="site-footer">
+          site map
+        </footer>
+      </div>
+    </div>
+  </body>  
 </html>
