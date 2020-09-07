@@ -1,0 +1,151 @@
+/*reset*/
+* {
+    padding: 0;
+    margin: 0px;
+}
+
+/*page background*/
+body {
+    background-image: url("Assets/cork-board.jpg");
+}
+
+/*begin primary styles*/
+
+#buffer{
+    min-height: 14px;
+}
+
+#main-container {
+    width: 970px;
+    margin: 0px auto;
+    background-image: url("Assets/notebook.png");
+    min-height: 1050px;
+}
+
+/*Header*/
+#main-header {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.site-Header {
+    width: 100%;
+    margin: 0px auto;
+}
+
+/*Logo*/
+#site-logo {
+    display: block;
+    padding: 4px 5px;
+    margin: auto;
+}
+
+#logo img {
+    width: 100%;
+    margin: auto;
+}
+
+/*Nav*/
+#main-nav {
+    padding: 0px;
+    display:inline-block;
+    width: 100%;
+    margin: auto;
+  }
+
+#nav-list {
+    list-style-type: none;
+    padding-left: 10px;
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+  }
+
+.nav-link {
+    float: left;
+    display: block;
+    color: rgb(55, 55, 199);
+    text-align: center;
+    padding: 10px 40px;
+    text-decoration: none;
+    border: 4px double rgb(55, 55, 199);
+    margin: auto;
+  }
+
+/*main contents*/
+
+#page-main{
+    margin: 4px 8px;
+    border: 4px solid rgb(55, 55, 199);
+    min-height: 620px;
+}
+
+/*page header*/
+
+.pageHeader {
+    margin: 4px 4px 4px 4px;
+    min-height: 92px;
+    border: 4px solid rgb(55, 55, 199);
+}
+
+#page-header {
+    margin: 4px 4px 4px 4px;
+    min-height: 92px;
+}
+
+/*page content*/
+
+#page-content {
+    margin: 2px 7px;
+    border: 4px solid rgb(55, 55, 199);
+    min-height: 498px;
+    width: auto;
+}
+
+/*main content*/
+
+.main-section {
+    display: block;
+    float: left;
+    margin: 4px 4px;
+    border: 4px solid rgb(55, 55, 199);
+    min-height: 480px;
+    width: 68%;
+}
+
+/*asides*/
+
+.main-aside {
+    display: block;
+    float: right;
+    margin: 4px 4px;
+    border: 4px solid rgb(55, 55, 199);
+    min-height: 480px;
+    width: 28%;
+}
+
+/*main footer*/
+
+#site-footer {
+    margin: 4px 8px;
+    border: 4px solid rgb(55, 55, 199);
+    min-height: 180px;
+}
+
+.sitemap {
+    display: block;
+    float: right;
+    margin: 4px 4px;
+    border: 4px solid rgb(55, 55, 199);
+    min-height: 162px;
+    width: 68%;    
+}
+
+.contact {
+    display: block;
+    float: left;
+    margin: 4px 4px;
+    border: 4px solid rgb(55, 55, 199);
+    min-height: 162px;
+    width: 28%;
+}
