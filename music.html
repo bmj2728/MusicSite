@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Brian Jipson">
+    <meta name="description" content="Personal Site of Brian Jipson"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="template.css">
+    <title>Jipson Art & Media</title>
+    <script 
+        src="https://code.jquery.com/jquery-3.5.1.min.js" 
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        crossorigin="anonymous">
+    </script>
+    <script
+        src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="Scripts/audioPlayer.js"></script>
+  </head>
+
+  <body>
+    <div id="buffer">
+        
+    </div>  
+    <div id="main-container">
+
+          <div id="main-header">
+              
+            <header class="site-Header">
+                  
+                <div id=site-logo>
+                      
+                    <img id="logo" src="Assets/logo.png"> 
+
+                </div>
+                  
+                <br>
+                  
+                <div id="main-nav">
+                      
+                    <ul id="nav-list">                    
+                        <a class="nav-link" href="https://www.brianjipson.com"><li id="navLink1">Home</li></a>
+                        <a class="nav-link" href="https://www.brianjipson.com"><li id="navLink2">Music</li></a>
+                        <a class="nav-link" href="https://www.brianjipson.com"><li id="navLink3">Visual Art</li></a>
+                        <a class="nav-link" href="https://www.brianjipson.com"><li id="navLink4">Writings</li></a>
+                        <a class="nav-link" href="https://www.brianjipson.com"><li id="navLink5">Coding</li></a>
+                        <a class="nav-link" href="https://www.brianjipson.com"><li id="navLink6">Gaming</li></a>
+                        <a class="nav-link" href="https://www.brianjipson.com"><li id="navLink7">Other</li></a>                      
+                    </ul>
+                  
+                </div>
+              
+            </header>
+          </div>
+
+          <div id="page-main">
+            <img id="page-buffer" src="Assets/hrscrib.png">
+              <div id="page-header">
+
+                  <header class="pageHeader">
+                    <h1 id="musicHeader">Music</h1>
+                  </header>
+
+              </div>
+              <img id="header-buffer" src="Assets/hrscrib.png">
+              <div id="page-content">
+                  
+                  <section class="main-section-no-aside">
+                    <div id="music-player">
+                      <div id=info-section">
+                        <div id="album-art">
+                          <img class="cover-art" src="Assets/icef-cover250.jpg">
+                        </div>
+                        <div id="song-info">
+                          <div id="basics">
+                            <div id="title">Bones</div>
+                            <div id="artist">Brian Jipson</div>
+                          </div>
+
+                          <div id="tracker">
+                            <progress id="track-progress" value="0" max="1"></progress>
+                            <div id="songTime">0:00</div>
+                            <div id="duration">3:05</div>
+                          </div>
+
+                          <div id="controls">
+                            <button class="prev"><img src="Assets/prev.png"></button>
+                            <button class="play"><img src="Assets/play.png"></button>
+                            <button class="pause"><img src="Assets/pause.png"></button>
+                            <button class="stop"><img src="Assets/stop.png"></button>
+                            <button class="next"><img src="Assets/next.png"></button>
+                            
+                            <div id="vol-slider">
+                              <img id="volume-soft" src="Assets/volSoft.png" height="32px" width="32px">
+                              <input class="volume" type="range" min=0 max=10 step=1 defaultValue=5>
+                              <img id="volume-loud" src="Assets/volLoud.png" height="32px" width="32px">
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                      <img id="playlist-buffer" src="Assets/hrscrib.png">
+                      <div id="playlist">
+                        <header id="playlist-header">
+                          <h1 id="playlist-album">Inhale Courage/Exhale Fear</h1>
+                        </header>
+                        <ol id="tracklist">
+                          <li class="playlist-item">
+                            <A href="AudioM4A/Brian Jipson - Inhale Courage-Exhale Fear - 32 Hindsight (Original).m4a">Hindsight</A>
+                          </li>
+                          <li class="playlist-item">
+                            <A href="AudioM4A/Brian Jipson - Inhale Courage-Exhale Fear - 146 Bones (Original).m4a">Bones</A>
+                          </li>
+                          <li class="playlist-item">
+                            <A href="AudioM4A/Brian Jipson - Inhale Courage-Exhale Fear - 145 Where Do We Go From Here (Brian Jipson & Adam Murphy).m4a">Where Do We Go From Here</A>
+                          </li>
+                          <li class="playlist-item">
+                            <A href="AudioM4A/Brian Jipson - Inhale Courage-Exhale Fear - 144 Man Out Of Time (Original).m4a">Man Out of Time</A>
+                          </li>
+                        </ol>
+                      </div>
+                    </div>
+
+                  </section>
+
+              </div>
+              <img id="footer-buffer" src="Assets/hrscrib.png">
+          </div>
+          
+          <div id="site-footer">
+
+            <section class="contact">
+              <header id="contact-header">
+                Contact Info
+              </header>
+              <ul id="contact-list">
+                <li class="contact-item">For general information - <a href="mailto:contact@brianjipson.com">General</a></li>
+                <li class="contact-item">For art submissions - <a href="mailto:submissions@brianjipson.com">Submissions</a></li>
+                <li class="contact-item">For technical issues - <a href="mailto:support@brianjipson.com">Tech Support</a></li>
+              </ul>
+            </section>
+
+            <section class="sitemap">
+              <ul id="sitemap-list">
+                <li class="sitemap-item"><a href="https://www.brianjipson.com">Home</a></li>
+                <li class="sitemap-item"><a href="https://www.brianjipson.com">Music</a></li>
+                <li class="sitemap-item"><a href="https://www.brianjipson.com">Visual Arts</a></li>
+                <li class="sitemap-item"><a href="https://www.brianjipson.com">Writing</a></li>
+                <li class="sitemap-item"><a href="https://www.brianjipson.com">Coding</a></li>
+                <li class="sitemap-item"><a href="https://www.brianjipson.com">Gaming</a></li>
+                <li class="sitemap-item"><a href="https://www.brianjipson.com">Other</a></li>
+              </ul>
+
+            </section>
+
+          </div>
+      
+    </div>
+
+  </body>
+
+</html>
