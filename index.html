@@ -1,104 +1,70 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
 
   <head>
-    <meta charset='utf-8'>
-    <title>Test Page</title>
-    <meta name='description' content='Test Page'>
-    <meta name='author' content='Brian Jipson'>
+    <meta charset="utf-8">
+    <meta name="author" content="Brian Jipson">
+    <meta name="description" content="Personal Site of Brian Jipson"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Jipson Art & Media</title>
   </head>
 
   <body>
-
-    <header id='site-header'>
-      <div id='site-logo'>
-        <img id='logo'>
+    <div id="musicPageContainer" class="container-page">
+      <div id="musicPageHeaderContainer" class="container-header">
+        <header id="musicPageHeader" class="site-header">
+          <img src="Assets/logo.png"> 
+          <nav id="musicPageNav" class="site-nav">
+            <ul id="musicPageNavList" class="site-navList">
+              <li id="musicNav1" class="site-navButton"><a href="#">Home</a></li>
+              <li id="musicNav2" class="site-navButton"><a href="#">Music</a></li>
+              <li id="musicNav3" class="site-navButton"><a href="#">Visual Art</a></li>
+              <li id="musicNav4" class="site-navButton"><a href="#">Writings</a></li>
+              <li id="musicNav5" class="site-navButton"><a href="#">Coding</a></li>
+              <li id="musicNav6" class="site-navButton"><a href="#">Gaming</a></li>
+              <li id="musicNav7" class="site-navButton"><a href="#">Other</a></li>
+            </ul>
+          </nav>
+        </header>
       </div>
-      <div id='site-title'>
-      </div>
-      <nav id='site-nav'>
-        <ul id='site-navlist'>
-          <li class='navlistitem-active' id='site-navitem1'><a href='#'></a></li>
-          <li class='navlistitem-inactive' id='site-navitem2'><a href='#'></a></li>
-          <li class='navlistitem-inactive' id='site-navitem3'><a href='#'></a></li>
-          <li class='navlistitem-inactive' id='site-navitem4'><a href='#'></a></li>
-          <li class='navlistitem-inactive' id='site-navitem5'><a href='#'></a></li>
-          <li class='navlistitem-inactive' id='site-navitem6'><a href='#'></a></li>
-        </ul>
-      </nav>
-    </header>
-    
-    <div id='page-container'>
-      <header id='page-header'>
-      </header>
-      <main id='page-main'>
-        <div id='player-container'>
-          <div id='player'>
-            <div id='player-albumart'>
-              <img id='albumart'>
-            </div>
-            <div id='player-songinfo'>
-              <div id='player-songtitle'></div>
-              <div id='player-songalbum'></div>
-              <div id='player-songartist'></div>
-            </div>
-            <div id='player-songtimes'>
-              <span id='songtime-current'></span>
-              <span id='songtime-duration'></span>
-              <div id='player-progressbar'>
-                <progress id='songprogress' value=0 max=100></progress>
-              </div>
-            </div>
-            <div id='player-controls'>
-              <button class='playercontrolbutton' id='prevbutton'><img id='prev'></button>
-              <button class='playercontrolbutton' id='playbutton'><img id='play'></button>
-              <button class='playercontrolbutton' id='pausebutton'><img id='pause'></button>
-              <button class='playercontrolbutton' id='stopbutton'><img id='stop'></button>
-              <button class='playercontrolbutton' id='nextbutton'><img id='next'></button>
-            </div>
-            <div id='player-volume'>
-              <input id='volumeslider' type='range' min=0 max=10 value=7>
-              <button class='playercontrolbutton' id='mutebutton'><img id='mute'></button>
-            </div>
-          </div>
-          <div id='songlist'>
-            <header id='songlist-header'>
-              <div id='songlist-artist'></div>
+      <div id="musicPageContentContainer" class="container-content">
+        <section id="musicPageContentSection" class="section-content">
+          <div id="musicPageMain" class="container-mainContent">
+            <header id="musicPageComingSoonHeader" class="section-header">
+              <h2>Full Site Coming Soon</h2>
             </header>
-            <div id='songlist-songs'>
-              <ul id='songs'>
-                <li class='songlistitem-active' id='songlistitem1'>
-                  <span class='songlisttitle' id='title1'></span>
-                  <span class='songlistalbum' id='album1'></span>
-                  <span class='songlistduration' id='duration1'></span>
-                </li>
-                <li class='songlistitem-inactive' id='songlistitem2'>
-                  <span class='songlisttitle' id='title2'></span>
-                  <span class='songlistalbum' id='album2'></span>
-                  <span class='songlistduration' id='duration2'></span>
-                </li>
-                <li class='songlistitem-inactive' id='songlistitem3'>
-                  <span class='songlisttitle' id='title3'></span>
-                  <span class='songlistalbum' id='album3'></span>
-                  <span class='songlistduration' id='duration3'></span>
-                </li>
-                <li class='songlistitem-inactive' id='songlistitem4'>
-                  <span class='songlisttitle' id='title4'></span>
-                  <span class='songlistalbum' id='album4'></span>
-                  <span class='songlistduration' id='duration4'></span>
-                </li>
-                <li class='songlistitem-inactive' id='songlistitem5'>
-                  <span class='songlisttitle' id='title5'></span>
-                  <span class='songlistalbum' id='album5'></span>
-                  <span class='songlistduration' id='duration5'></span>
-                </li>
-              </ul>
-            </div>
+            <article id="comingSoonArticle" class="music-article">
+              <p>Thanks for visiting today. While we're getting this site built and content migrated, check out a recent track below:</p>
+              <h4>Where Do We Go From Here</h4>
+              <br>
+              <audio controls autoplay> 
+                <source src="AudioM4A/Brian Jipson - Inhale Courage-Exhale Fear - 145 Where Do We Go From Here (Brian Jipson & Adam Murphy).m4a" type="audio/mp4">
+                <source src="AudioMP3/Brian Jipson - Inhale Courage-Exhale Fear - 145 Where Do We Go From Here (Brian Jipson & Adam Murphy).mp3" type="audio/mpeg">
+              </audio>
+              <br>
+              <p>You can check out a long list of other recordings on bandcamp by clicking the image below.</p>
+              <br>
+              <a href="https://brianjipson.bandcamp.com/album/inhale-courage-exhale-fear">
+                <img src="Assets/icef-cover.jpg" width="424" height="378" alt="Inhale Courage Exhale Fear">
+              </a>
+            </article>
+            <footer id="comingSoonFooter" class="section-footer">
+              <p>Jipson, Brian. <cite>"Where Do We Go From Here"</cite> Murphy, A. M. [lyrics], 2020</p>
+            </footer>
           </div>
-        </div>
-      </main>
+          <div id="musicPageSide" class="container-sideContent">
+            <aside id="musicPageAside" class="site-aside">
+            </aside>
+          </div>
+        </section>
+        <hr style="width:80%;text-align:center">
+      </div>
+      <div id="musicPageFooterContainer" class="container-footer">
+        <footer id=musicPageFooter class="site-footer">
+          site map
+        </footer>
+      </div>
     </div>
-  </body>
-
+  </body>  
 </html>
